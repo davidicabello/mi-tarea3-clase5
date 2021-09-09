@@ -10,15 +10,15 @@ $calculateButton.onclick = function () {
     let totalTime = new Date(0, 0, 0);
     for (let i = 0; i < $videoHours.length; i++) {
         totalHours += Number($videoHours[i].value);
-        console.log(totalHours);
+        
     }
     for (let i = 0; i < $videoMinutes.length; i++) {
         totalMinutes += Number($videoMinutes[i].value);
-        console.log(totalMinutes);
+        
     }
     for (let i = 0; i < $videoSeconds.length; i++) {
         totalSeconds += Number($videoSeconds[i].value);
-        console.log(totalSeconds);
+        
     }
     totalTime.setHours(totalHours);
     totalTime.setMinutes(totalMinutes);

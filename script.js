@@ -5,11 +5,17 @@
 // cada dato.
 // al apretar el botón "Calcular tiempo total", debe mostrar en un
 // <strong> pre-creado el tiempo total de los videos.
+let $videoHours = document.querySelectorAll('.horas');
+let $videoMinutes = document.querySelectorAll('.minutos');
+let $videoSeconds = document.querySelectorAll('.segundos');
+let totalHours = 0;
+let totalMinutes = 0;
+let totalSeconds = 0;
+document.querySelector('#button-calc').onclick = function () {
+    for (let i = 0; i < $videoHours.length; i++) {
+        totalHours += Number ($videoHours[i].value);
+        console.log(totalHours);
+    }
 
+}
 
-var typed = new Typed(".typing", {
-    strings: ["Developer", "Designer", "Freelancer"],
-    typeSpeed: 100,
-    backSpeed: 60,
-    loop: true
-});

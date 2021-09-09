@@ -14,16 +14,23 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    flex-direction:column;
     min-height: 100vh;
+    align-items: center;
 }
 
-.form-group {
+.videos1,
+.videos2,
+.videos3,
+.videos4,
+.videos5 {
     width: 200px;
     max-width: 100%;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    align-content: center;
+    background: rgba(19, 35, 47, 0.9);
+    
 }
 
 .labels {
@@ -39,15 +46,17 @@ h2 {
     flex-direction: column;
     color: orangered;
     animation: ease-in;
+    text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
 }
 
 div.type {
     text-align: center;
     color: rgb(255, 255, 255);
     white-space: nowrap;
+    text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
 }
   
-.type h1 {
+type.h1 {
     display: inline-block;
     overflow: hidden;
     border-right: .15em solid orange;
@@ -62,7 +71,7 @@ div.type {
 
 .button {
     font-family: 'Poppins', sans-serif;
-    background-color: orangered; /* Green */
+    background-color: orangered;
     border: none;
     color: white;
     padding: 10px 25px;

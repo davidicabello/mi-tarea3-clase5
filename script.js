@@ -16,6 +16,6 @@ document.querySelector('#button-calc').onclick = function () {
         totalHours += Number ($videoHours[i].value);
         console.log(totalHours);
     }
-
+    document.querySelector('.result').innerText = `La total de tiempo del curso es ${totalHours} Horas,`
 }
 

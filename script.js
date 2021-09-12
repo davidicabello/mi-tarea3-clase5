@@ -33,10 +33,10 @@ $calculateButton.onclick = function () {
 
 
 /*
-const totalSecondsSum =  totalHours*360 + totalMinutes*60 + totalSeconds
-const totalHoursVideos = totalSeconds / 360;
-const totalMinutesVideos = (totalSecondsSum % 360) / 60
-const totalSecondsVideos = ((totalSecondsSum % 360) % 60)
+const totalSecondsSum =  totalHours*3600 + totalMinutes*60 + totalSeconds;
+const totalHoursVideos = totalSeconds / 3600;
+const totalMinutesVideos = (totalSecondsSum % 3600) / 60);
+const totalSecondsVideos = ((totalSecondsSum % 3600) % 60);
 
 
 document.querySelector('.result').innerText = 
